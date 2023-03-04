@@ -35,7 +35,7 @@ function M.setup()
     FoldColumn   = { bg = options.transparent and c.none or c.bg0, fg = c.bg1 }, -- 'foldcolumn'
     Folded       = { fg = c.blue, bg = c.bg1 }, -- line used for closed folds
     Foo          = { bg = c.purple, fg = c.purple },
-    HintText     = { sp = c.green, undercurl = false },
+    HintText     = { undercurl = true },
     IncSearch    = { bg = c.orange, fg = c.bg0 }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c" InfoText     = { sp = c.blue, undercurl = options.styles.undercurl },
     LineNr       = { bg = options.transparent and c.none or c.bg1, fg = c.fg1 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     MatchParen   = { fg = c.orange, bold = true }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
