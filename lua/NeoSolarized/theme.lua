@@ -17,7 +17,7 @@ function M.setup()
     Comment      = { fg = c.fg2, style = options.styles.comments }, -- any comment
     Conceal      = { fg = c.bg1 }, -- placeholder characters substituted for concealed text (see 'conceallevel')
     CurSearch    = { link = "IncSearch" },
-    CurrentWord  = { fg = c.bg0, bg = c.bg_green },
+--     CurrentWord  = { fg = c.bg0, bg = c.bg_green },
     Cursor       = { fg = c.bg1, bg = c.fg0 }, -- character under the cursor
     CursorColumn = { bg = c.none }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorIM     = { fg = c.bg0, bg = c.fg0 }, -- like Cursor, but used when in IME mode |CursorIM|
